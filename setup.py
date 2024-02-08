@@ -1,7 +1,4 @@
 from setuptools import setup, find_packages
-import codecs
-import os
-
 
 VERSION = '0.0.1'
 DESCRIPTION = 'A Python package for analyzing data using the PROGENy algorithm.'
@@ -20,6 +17,7 @@ setup(
     url = "https://github.com/milivojcevic6/PROGENy-test",
     # install_requires=['test1','test2'],
     keywords=['python', 'PROGENy', 'analysis', 'cancer', 'gene expression', 'data analysis', 'genialis'],
+    license="MIT",
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
