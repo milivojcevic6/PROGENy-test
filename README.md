@@ -17,7 +17,7 @@ Alternatively, you can install the package from source:
 
 ```bash
 git clone https://github.com/milivojcevic6/PROGENy-test.git
-cd PROGENyTest
+cd PROGENy-test
 pip install .
 ```
 
