@@ -12,10 +12,13 @@ setup(
     author_email="milivojcevic@proton.me",
     description=DESCRIPTION,
     long_description_content_type="text/markdown",
-    long_description=long_description,
+    long_description=LONG_DESCRIPTION,
     packages=find_packages(),
     url = "https://github.com/milivojcevic6/PROGENy-test",
-    # install_requires=['test1','test2'],
+    install_requires=[
+        "click",
+        "tabulate",
+    ],
     keywords=['python', 'PROGENy', 'analysis', 'cancer', 'gene expression', 'data analysis', 'genialis'],
     license="MIT",
     classifiers=[
@@ -30,5 +33,10 @@ setup(
         "Intended Audience :: Science/Research",
         "Development Status :: 5 - Production/Stable",
         "Natural Language :: English",
-    ]
+    ],
+    entry_points={
+        'console_scripts': [
+            'progenytest = PROGENyTest.app:main',
+        ],
+    }
 )
