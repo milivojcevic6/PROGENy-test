@@ -7,7 +7,7 @@ def run_progeny_analysis(dataset_name):
     # For now, print message indicating the dataset name
     click.echo(f"Running PROGENy analysis on dataset: {dataset_name}")
 
-@click.command(help="Analyze a dataset using the PROGENy algorithm")
+@click.command()
 @click.argument('datasetname', metavar='DATASET', required=True, type=str, help="Name of the dataset to analyze")
 def main(datasetname):
 
