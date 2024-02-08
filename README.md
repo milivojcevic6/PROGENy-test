@@ -4,15 +4,7 @@ PROGENyTest is a Python package that provides an implementation of the PROGENy a
 
 ## Installation
 
-To install PROGENyTest, you can use pip:
-
-
-```bash
-<<COMING UP SOON>>
-```
-
-
-Alternatively, you can install the package from source:
+To use PROGENyTest, you can install the package from source:
 
 
 ```bash
